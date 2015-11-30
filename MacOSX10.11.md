@@ -1,4 +1,4 @@
-
+更新时间：30/Nov/2015 
 希望有时间完成这个project：整理下来自己的mac os 的 setting方案 希望可以便利或者方便和自己一样的喜欢mac os x的科研狗。顺便可以复习一下MD的使用。
 
 # Mac OS X 10.11 El Capitan 系统个人化设置参考
@@ -76,7 +76,7 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 * [Alignment](https://packagecontrol.io/packages/Alignment)
 * [Git](https://packagecontrol.io/packages/Git)
-* [Markdown Preview)](https://packagecontrol.io/packages/Markdown%20Preview)
+* [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview)
 * [Terminal](https://packagecontrol.io/packages/Terminal)
 * [LaTeXTools](https://packagecontrol.io/packages/LaTeXTools)
 
