@@ -1,7 +1,18 @@
-更新时间：30/Nov/2015 
-希望有时间完成这个project：整理下来自己的mac os 的 setting方案 希望可以便利或者方便和自己一样的喜欢mac os x的科研狗。顺便可以复习一下MD的使用。
-
 # Mac OS X 10.11 El Capitan 系统个人化设置参考
+
+## Apps from MacAppStore
+* [1Checker](https://itunes.apple.com/us/app/1checker/id766176336?mt=12) 免费的英语拼写检查，论文神器之一，免费
+* [Alternote](https://itunes.apple.com/app/id974971992?mt=12
+) Evernote的客户端，简介好看，集中精力
+* [CleanMyDrive](https://itunes.apple.com/us/app/cleanmydrive-external-drives/id523620159?mt=12) Macpaw家的免费清理软件
+* [Notability](https://itunes.apple.com/us/app/notability/id736189492?mt=12) Pad上最常用的笔记软件的Mac版本，3.99
+* [Paste]()个人认为最好的剪切板工具，冰点0.99
+* [Pocket](https://itunes.apple.com/us/app/pocket/id568494494?mt=12) 知名RIL客户端，帮助我整理收集
+* [The Unarchiver](https://itunes.apple.com/en/app/the-unarchiver/id425424353?mt=12) 压缩和解压缩，免费
+* [WeatherWall](https://itunes.apple.com/us/app/weather-wall/id581893121?mt=12) 漂亮的屏幕软件，付费
+
+
+## Other Apps
 
 可以使用[Cask](http://caskroom.io/)来安装绝大部分不在MacAppStore的软件，但是之前需要首先安装[homebrew](http://brew.sh/)：
 
@@ -11,18 +22,6 @@
 	
 	brew install caskroom/cask/brew-cask
 
-
-## Apps from MacAppStore 
-* [WeatherWall](https://itunes.apple.com/us/app/weather-wall/id581893121?mt=12) 漂亮的屏幕软件，付费
-* [The Unarchiver](https://itunes.apple.com/en/app/the-unarchiver/id425424353?mt=12) 压缩和解压缩，免费
-* [Alternote](https://itunes.apple.com/app/id974971992?mt=12
-) Evernote的客户端，简介好看，集中精力
-* [Pocket](https://itunes.apple.com/us/app/pocket/id568494494?mt=12) 知名RIL客户端，帮助我整理收集
-* [CleanMyDrive](https://itunes.apple.com/us/app/cleanmydrive-external-drives/id523620159?mt=12) Macpaw家的免费清理软件
-* [1Checker](https://itunes.apple.com/us/app/1checker/id766176336?mt=12) 免费的英语拼写检查，论文神器之一
-* [Notability](https://itunes.apple.com/us/app/notability/id736189492?mt=12) Pad上最常用的笔记软件的Mac版本
-
-## Other Apps（都可以通过brew cask install ）
 * [MplayerX](http://mplayerx.org/download.html#sthash.bF26vnbD.Zgsb1Shh.dpbs) 全能播放王，免费
 * [CleanMyMac3](http://macpaw.com/landings/land221?campaign=search_text_cmm3_brand_rw&utm_source=&utm_medium=&utm_term=&utm_content=&utm_campaign=&gclid=Cj0KEQiA-NqyBRC905irsrLr-LUBEiQAWJFYTuPKx1v1DbJeGAnDRupaPIUZNBx1yZ11ItOGOlThre4aArEN8P8HAQ&siteID=&CJPID=&mpaid=) Mac上面最好的清理工具，巨贵无比
 * [Alfred2](https://www.alfredapp.com/) 最知名的Mac平台启动器之一
@@ -32,18 +31,21 @@
 * [iStatMenus](https://bjango.com/mac/istatmenus/) 时刻监控你的Mac
 * [Dropbox](https://www.dropbox.com/) 不用介绍了吧
 * [GoogleChrome](https://www.google.com/chrome/browser/desktop/index.html) 不用介绍了吧 虽然依赖免费服务不是一件好事，但是有很多Google的东西已经让我欲罢不能了
+* [GoogleDrive]() 来自Google的云服务
 * [Jumpcut](http://jumpcut.sourceforge.net/) 免费开源的剪切板工具
 * [Steam](http://store.steampowered.com/) 总还是需要休闲一下滴
 
 ## Useful for working
 * [Matlab](http://fr.mathworks.com/products/matlab/?refresh=true) 最常用
 * [Omnifocus](https://www.omnigroup.com/omnifocus) 知名的GTD工具，学习成本高，效果好
+* [OmniOutliner]() Omnigroup的大纲工具
+* [OmniGraffle]() Omnigroup的画图工具
 * [RescueTime](https://www.rescuetime.com) 节约时间，提高效率
 * [iTerm2](https://www.iterm2.com/) 原生Terminal替换产品
 * [skim](http://skim-app.sourceforge.net/) 原生Preview替换产品
 * [SublimeText](https://www.sublimetext.com/) 最喜欢，最常用的编辑器
 * [MacTex](https://tug.org/mactex/) Mac上的Tex
-
+* [LibreOffice]()
 
 ## OS X Preferences
 ```
@@ -56,6 +58,9 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots
 ```
 
 ## Settings for Terminal(iTerm2)
+
+主要的问题是配色和常用语句，比如linux的ls语句是可以通过颜色区分文件夹和文件的，但是Mac OS上默认的就没有这么方便，网上有很多现成的配色方案，还有很多资深的程序员推荐使用ohmyzsh的zsh脚本语言。
+
 ## Settings for SublimeText3
 ### Add Sublime Text CLI
 
