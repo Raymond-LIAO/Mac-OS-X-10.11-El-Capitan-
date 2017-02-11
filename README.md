@@ -9,7 +9,8 @@
 * [Pocket](https://itunes.apple.com/us/app/pocket/id568494494?mt=12) 知名RIL客户端，帮助我整理收集 
 * [The Unarchiver](https://itunes.apple.com/en/app/the-unarchiver/id425424353?mt=12) 压缩和解压缩 
 * [Irvue](https://itunes.apple.com/fr/app/wallpapers-from-unsplash-irvue/id1039633667?l=en&mt=12) 来自Unsplash 的桌面图片 
-* [Microsoft Remote Desktop](https://itunes.apple.com/fr/app/microsoft-remote-desktop/id715768417?l=en&mt=12) 虽然到现在还没用上。 * [WeChat](https://itunes.apple.com/fr/app/wechat/id836500024?l=en&mt=12) 微信 Mac 端，十分方便，尤其是在上班的时候聊天。。 
+* [Microsoft Remote Desktop](https://itunes.apple.com/fr/app/microsoft-remote-desktop/id715768417?l=en&mt=12) 虽然到现在还没用上。
+* [WeChat](https://itunes.apple.com/fr/app/wechat/id836500024?l=en&mt=12) 微信 Mac 端，十分方便，尤其是在上班的时候聊天。。 
 
 ### 已购买 
 * [1Password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12&ign-mpt=uo%3D4) 鼎鼎大名的全平台密码管理软件，价格不菲。目前已支持指纹解锁，手动点赞。 
