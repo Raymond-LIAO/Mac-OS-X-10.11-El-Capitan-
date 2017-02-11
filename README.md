@@ -26,10 +26,14 @@
 * [Fantastical 2](https://itunes.apple.com/fr/app/fantastical-2-calendar-reminders/id975937182?l=en&mt=12) 
 
 ## Other Apps 
-* 使用[HomeBrew Cask](http://caskroom.io/)来安装绝大部分不在MacAppStore的软件，但是之前需要首先安装[homebrew](http://brew.sh/)：
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
-之后只需要简单的一句： 
-	brew tap caskroom/cask 
+使用[HomeBrew Cask](http://caskroom.io/)来安装绝大部分不在MacAppStore的软件，但是之前需要首先安装[homebrew](http://brew.sh/):
+
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	
+之后只需要简单的一句：
+
+	brew tap caskroom/cask
+	
 关于Homebrew Cask的介绍可以参考少数派的[这篇文章](http://sspai.com/32857)。
 
 * [Anaconda](https://www.continuum.io/downloads) 可能是最方便的 Python 科学计算环境
@@ -76,7 +80,8 @@ mkdir ~/Desktop/Screenshots defaults write com.apple.screencapture location ~/De
 
 ## Settings for SublimeText3 (TO-DO) 
 ### Install Package Control 
-打开View > Show Console menu： 
+打开View > Show Console menu：
+
 	import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) 
 	
 ### Plug-ins 
@@ -90,6 +95,7 @@ mkdir ~/Desktop/Screenshots defaults write com.apple.screencapture location ~/De
 
 #### Themes [Material-Theme] 
 #### Preferences.sublime-settings文件分享
+
 	{ "theme": "Soda Dark 3.sublime-theme", "always_show_minimap_viewport": true, "bold_folder_labels": true, "draw_minimap_border": true, "highlight_modified_tabs": true, "soda_classic_tabs": true, "soda_folder_icons": false, "font_face": "Ubuntu Mono", "font_size": 25, "line_padding_bottom": 1, "line_padding_top": 1, } 
 
 ## 关于如何备份你的电脑 
