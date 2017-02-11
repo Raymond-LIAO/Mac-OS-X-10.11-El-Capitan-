@@ -198,24 +198,6 @@ alias -s bz2='tar -xjvf'
 ## Settings for Mail
 
 ##Git
-###Git Setups
-
-	ssh-keygen -t rsa -C "raymondedge928@gmail.com"
-
-	% Copy ssh key to github.com
-	subl ~/.ssh/id_rsa.pub
-
-	% Test connection
-	ssh -T git@github.com
-
-	% Set git config values
-	git config --global user.name "Raymond LIAO"
-	git config --global user.email "raymondedge928@gmail.com"
-	git config --global github.user Raymond-LIAO
-	git config --global github.token 8e900959a58d553e8d8fffcfd1a242232d743203
-
-	git config --global core.editor "subl -w"
-	git config --global color.ui true
 	
 ##关于如何备份你的电脑
 最简单的方式当然是选择一块移动硬盘加上Time Machine，当然还有很多联网啊搭建NAS之类的高大上但是更加方便的方式，抑或者也写一篇像本文这样的文章，详细记录下你的（装机）过程，就都不在这里详述了。
